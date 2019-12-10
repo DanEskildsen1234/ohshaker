@@ -9,6 +9,15 @@
 </head>
 <body>
 
+<main>
+    <a class="btn add" href="create.php">+</a>
+    <section>
+        <a class="tile" href="single.php">
+            <img alt="Cocktail name">
+            <p>Cocktail name</p>
+        </a>
+    </section>
+</main>
 
 </body>
 </html>
