@@ -9,11 +9,11 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="back-image">
     <?php
     include_once('components/header.php');
     include_once('components/nav.php');
     ?>
+    <div class="back-image">
 
     <main>
         <!-- <a class="btn add" href="create.php">+</a> -->
