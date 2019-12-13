@@ -30,10 +30,10 @@
         <section class="form">
             <p>Enter pin:</p>
             <div id="pin-field">
-                <input type="password" class="pinput" maxlength="1">
-                <input type="password" class="pinput" maxlength="1">
-                <input type="password" class="pinput" maxlength="1">
-                <input type="password" class="pinput" maxlength="1">
+                <input type="password" class="input-large pinput" maxlength="1">
+                <input type="password" class="input-large pinput" maxlength="1">
+                <input type="password" class="input-large pinput" maxlength="1">
+                <input type="password" class="input-large pinput" maxlength="1">
             </div>
             <button class="btn btn-blue" data-login>Login</button>
             <a href="manager-login.php">Administrative login</a>
