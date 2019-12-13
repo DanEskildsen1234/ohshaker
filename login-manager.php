@@ -14,7 +14,7 @@
     include_once('components/nav.php');
     ?>
 
-    <div class="back-image">
+    <div class="back-image"></div>
 
     <main>
         <div class="select-style-1">
@@ -36,7 +36,6 @@
             <a href="login.php">Bartender login</a>
         </section>
     </main>
-    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="assets/js/login.js"></script>
