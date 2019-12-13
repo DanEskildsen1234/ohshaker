@@ -118,12 +118,22 @@ a, a:hover {
 
 .form input{
   width: 100%;
-  margin-bottom: 40px;
-  padding: 5px;
-  height: 70px;
   border-radius: 5px;
   outline: none;
+}
+
+.input-text {
   padding-left: 20px;
+}
+
+.input-small {
+  height: 45px;
+  margin-bottom: 25px;
+}
+
+.input-large {
+  height: 70px;
+  margin-bottom: 40px;
   font-size: 1.4em;
 }
 
@@ -261,4 +271,8 @@ a, a:hover {
   border-radius: 0 0 15px 15px;
   border-top: 1px solid #909090;
   word-wrap: break-word;
+}
+
+#signup-submit {
+  margin-top: 15px;
 }
