@@ -10,11 +10,11 @@
 </head>
 <body>
     <?php
-    include_once('components/header.php');
-    include_once('components/nav.php');
+        include_once('components/header.php');
+        include_once('components/nav.php');
     ?>
 
-    <div class="back-image">
+    <div class="back-image"></div>
 
     <main>
         <!-- <span data-error class="error-box"></span> -->
@@ -40,7 +40,6 @@
             <!-- <button class="btn" data-register>Register</button> -->
         </section>
     </main>
-    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="assets/js/login.js"></script>
