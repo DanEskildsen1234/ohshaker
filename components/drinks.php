@@ -1,4 +1,4 @@
-<div class="drink-layout">
+<div class="drink-layout" data-drinks>
     <?php
         /*  foreach.. */
     ?>
