@@ -113,7 +113,7 @@ a, a:hover {
 
 .btn.btn-blue {
   background-color: #2DA0F3;
-  color: #000000;
+  color:black;
 }
 
 .form input{
@@ -322,4 +322,58 @@ a, a:hover {
   position:fixed;
   left:80%;
   bottom:14%;
+  z-index:10;
 }
+
+/* edit page */
+
+
+#chooseImg {
+  height:180px;
+  display:flex;
+  margin:0 auto 2em auto;
+  border: dashed 4px;
+  border-radius:0;
+}
+
+.inputEdit {
+  display:flex;
+  width:100%;
+  background:#C4C4C4;
+  height:40px;
+  border-radius:.2em;
+  margin:.5em auto;
+}
+
+#cocktailEdit .btn {
+  line-height: 10pt;
+  height:40px;
+  margin:0;
+}
+
+#cocktailEdit .btn.btn-blue {
+  margin:1em auto;
+  color: white;
+  font-weight:400;
+}
+
+.editSubtitle {
+  margin-top:2em;
+}
+.selectize-input{
+  background:#C4C4C4!important;
+  z-index:0!important;
+  font-size:16px!important;
+  margin-top:.5em;
+  padding:10px 8px!important;
+  /* margin-bottom:1.5em; */
+}
+
+.selectize-control.plugin-remove_button [data-value] .remove {
+  border:none!important;
+}
+.item {
+  background:#23B0FF!important;
+  color:white!important;
+}
+
