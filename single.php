@@ -43,11 +43,12 @@
 
         <div id="methodContainer">
             <h1>Method<h1>
-            <ol>
-                <li>Fill up the shaker with ice cubes</li>
-                <li>Pour mint liqueur vodka into the shaker</li>
-                <li>Shake well</li>
-                <li>Strain into the glass</li>
+            <ol> 
+                <li>Fill the lowball glass with ice cubes</li>
+                <li>Pour vodka into glass</li>
+                <li>Pour cranberry into glass</li>
+                <li>Stir</li>
+                <li>Squeeze and garnish dash of lime over cocktail</li>
             </ol>
         </div>
 
