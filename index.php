@@ -18,6 +18,7 @@
     <main>
         <!-- <a class="btn add" href="create.php">+</a> -->
         <section>
+        <a class="btn edit fab" href="create.php">+</a>
             <a class="tile" href="single.php">
                 <img alt="Cocktail name">
                 <p>Cocktail name</p>
