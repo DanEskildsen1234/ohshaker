@@ -19,7 +19,7 @@
 
 <main>
     <article>
-        <a href="http://google.com">
+        <a href="edit.php">
         <img id="editButton" src="assets/img/cocktail-icons/edit.svg" alt="link to edit page">
 </a>
         <img class="cocktail-thumb-img singleImg" src="assets/img/cocktails/1-cropped-thumb.jpg" alt="Cocktail img">
