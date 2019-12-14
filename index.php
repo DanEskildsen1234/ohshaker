@@ -18,17 +18,9 @@
 
     <main>
         <section>
-<<<<<<< HEAD
-        <a class="btn edit fab" href="create.php">+</a>
-            <a class="tile" href="single.php">
-                <img alt="Cocktail name">
-                <p>Cocktail name</p>
-            </a>
-=======
             <?php
                 include_once('components/drinks.php');
             ?>
->>>>>>> master
         </section>
     </main>
 </body>
