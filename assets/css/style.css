@@ -136,6 +136,14 @@ a, a:hover {
   outline: none;
 }
 
+.form.settings div {
+  margin-bottom: 1.5em;
+}
+
+.form.settings input  {
+  margin-bottom: 0.5em;
+}
+
 .input-text {
   padding-left: 20px;
 }
