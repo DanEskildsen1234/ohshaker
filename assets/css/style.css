@@ -276,3 +276,50 @@ a, a:hover {
 #signup-submit {
   margin-top: 15px;
 }
+
+/*   Single page */
+
+.singleImg {
+  display: flex;
+  margin: 0 auto;
+}
+
+#attributeContainer {
+  display:flex;
+  width:35%;
+  margin: 1em auto;
+  justify-content:space-between;
+  text-align:center;
+  font-size:13px;
+}
+
+#attributeContainer img {
+  height:4em;
+}
+
+#ingredientsContainer div {
+  font-size:16px;
+  font-weight: 500;
+  margin:.2em;
+}
+
+#methodContainer ol {
+  position:relative;
+  padding-inline-start: 20px;}
+
+#methodContainer li {
+  font-size:16px;
+  font-weight: 500;
+  margin:.2em;
+}
+
+#navSpacer {
+  height:70px;
+}
+
+#editButton {
+  height:60px;
+  position:fixed;
+  left:80%;
+  bottom:14%;
+}
