@@ -14,8 +14,6 @@
         include_once('components/nav.php');
     ?>
 
-    <!-- <div class="back-image"></div> -->
-
     <main>
         <section>
             <?php
