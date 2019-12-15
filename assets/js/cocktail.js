@@ -26,9 +26,13 @@ $(document).ready(function() {
     });
 
     $( ".addField" ).click(function() {
-        $("<input class='inputEdit' value=''>").insertBefore(this); 
-        });
-    
+        if(this.parentNode.id == 'editIngredients'){
+            $("<input class='inputEdit' placeholder='Ingredient name and amount' value=''>").insertBefore(this); 
+        }
+        else {
+            $("<input class='inputEdit' placeholder='Step' value=''>").insertBefore(this); 
+        }
+    });
     $( ".btn-blue" ).click(function() {
         window.location.href = "single.php";
         });

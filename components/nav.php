@@ -1,5 +1,13 @@
 <nav>
-    <a class="tab" href="mybar.php">
+<?php 
+session_start();
+if(!isset($_SESSION['manager'])){
+    echo '<a class="tab" href="login.php">';
+}
+else {
+    echo '<a class="tab" href="mybar.php">';
+}
+?>
         <div>
             <!-- object allows for fallback image -->
             <object class="nav-icon" data="assets\gfx\icon\toggle\star.svg" type="image/svg+xml">

@@ -29,21 +29,21 @@
                 <input class="inputEdit" value="Vodka Cranberry">
                 <div id="editIngredients">
                     <div class="editSubtitle">Ingredients</div>
-                    <input class="inputEdit" value="3cl Vodka">
-                    <input class="inputEdit" value="6cl Cranberry">
+                    <input class="inputEdit" placeholder="Ingredient name and amount" value="3cl Vodka">
+                    <input class="inputEdit" placeholder="Ingredient name and amount" value="6cl Cranberry">
                     <div class="btn addField">+</div>
                 </div>
                 <div id="editMethod">
                     <div class="editSubtitle">Method</div>
-                    <input class="inputEdit" value="Fill the lowball glass with ice cubes">
-                    <input class="inputEdit" value="Pour vodka into glass">
-                    <input class="inputEdit" value="Pour cranberry into glass">
-                    <input class="inputEdit" value="Stir">
-                    <input class="inputEdit" value="Squeeze and garnish dash of lime over cocktail">
+                    <input class="inputEdit" placeholder="Step" value="Fill the lowball glass with ice cubes">
+                    <input class="inputEdit" placeholder="Step" value="Pour vodka into glass">
+                    <input class="inputEdit" placeholder="Step" value="Pour cranberry into glass">
+                    <input class="inputEdit" placeholder="Step" value="Stir">
+                    <input class="inputEdit" placeholder="Step" value="Squeeze and garnish dash of lime over cocktail">
                     <div class="btn addField">+</div>
                 </div>
                 <div class="editSubtitle">Actions</div>
-                <select id="select-action" name="state[]" multiple class="demo-default" placeholder="Select a category">
+                <select id="select-action" name="state[]" multiple class="demo-default" placeholder="Select an action">
                     <option value="">Select an action...</option>
                     <option value="Cubed">Cubed ice</option>
                     <option value="Crushed">Crushed ice</option>
@@ -64,6 +64,6 @@
         </article>
     </main>
     <div id="navSpacer"></div>
-    <script src="assets/js/edit.js"></script>
+    <script src="assets/js/cocktail.js"></script>
 </body>
 </html>

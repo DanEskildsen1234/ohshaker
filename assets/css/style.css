@@ -365,6 +365,8 @@ a, a:hover {
   height:40px;
   border-radius:.2em;
   margin:.5em auto;
+  outline: none;
+
 }
 
 #cocktailEdit .btn {
@@ -391,6 +393,10 @@ a, a:hover {
   /* margin-bottom:1.5em; */
 }
 
+.selectize-input input {
+  font-size:1em!important;
+}
+
 .selectize-control.plugin-remove_button [data-value] .remove {
   border:none!important;
 }
@@ -398,4 +404,20 @@ a, a:hover {
   background:#23B0FF!important;
   color:white!important;
 }
+
+/* confirmation page */
+
+.emailImg {
+  height:10em;
+}
+
+.emailTxt {
+  text-align:center;
+  display:block;
+}
+
+.emailBtn  {
+  margin:1.5em auto;
+}
+
 
