@@ -16,7 +16,11 @@ include_once('components/nav.php');
 
 <main>
     <section class="form settings">
-        <h2>Your information</h2>
+        <h2>Your bar</h2>
+        <input value="KEA Bar" placeholder="Bar name" class="" maxlength="1">
+        <p>Bartenders from your bar can use a pin code to get access to your bar's cocktails.</p>
+        <button class="btn" data-logout>Set pin</button>
+        <h2>You</h2>
         <div>
             <input value="John" placeholder="First name" class="" maxlength="1">
             <input value="Doe" placeholder="Last name" class="" maxlength="1">
