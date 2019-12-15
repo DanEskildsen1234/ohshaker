@@ -19,9 +19,14 @@
 
 <main>
     <article>
-        <a href="edit.php">
-        <img id="editButton" src="assets/img/cocktail-icons/edit.svg" alt="link to edit page">
-</a>
+    <?php
+        if(isset($_SESSION['manager'])){
+            echo '
+            <a href="edit.php">
+                <img id="editButton" src="assets/img/cocktail-icons/edit.svg" alt="link to edit page">
+            </a>';
+        }
+    ?>
         <img class="cocktail-thumb-img singleImg" src="assets/img/cocktails/1-cropped-thumb.jpg" alt="Cocktail img">
         <div id="attributeContainer">
             <div class="attribute">
