@@ -1,38 +1,5 @@
 <div data-drinks>
     <section class="drink-layout">
-        <h5>Category</h5>
-        <img data-expand-more class='icon expand' src='./assets/gfx/icon/toggle/expand_more.svg' type='image/svg+xml'>
-        <img data-expand-less class='icon expand hidden' src='./assets/gfx/icon/toggle/expand_less.svg' type='image/svg+xml'>
-
-        <a class="tile" href="single.php">
-            <div class="tile-content">
-                <img class="cocktail-thumb-img" src="assets/img/cocktails/1-cropped-thumb.jpg" alt="Cocktail img">
-                <p class="thumb-caption">Yummy drink</p>
-            </div>
-        </a>
-
-        <a class="tile" href="single.php">
-            <div class="tile-content">
-                <img class="cocktail-thumb-img" src="assets/img/cocktails/6-cropped-thumb.jpg" alt="Cocktail img">
-                <p class="thumb-caption">Yummy drink</p>
-            </div>
-        </a>
-
-        <a class="tile" href="single.php">
-            <div class="tile-content">
-                <img class="cocktail-thumb-img" src="assets/img/cocktails/15-cropped-thumb.jpg" alt="Cocktail img">
-                <p class="thumb-caption">Yummy drink</p>
-            </div>
-        </a>
-
-        <a class="tile" href="single.php">
-            <div class="tile-content">
-                <img class="cocktail-thumb-img" src="assets/img/cocktails/16-cropped-thumb.jpg" alt="Cocktail img">
-                <p class="thumb-caption">Yummy drink</p>
-            </div>
-        </a>
-    </section>
-    <section class="drink-layout">
         <h5>Rum</h5>
         <img data-expand-more class='icon expand' src='./assets/gfx/icon/toggle/expand_more.svg' type='image/svg+xml'>
         <img data-expand-less class='icon expand hidden' src='./assets/gfx/icon/toggle/expand_less.svg' type='image/svg+xml'>
@@ -74,6 +41,39 @@
         <a class="tile" href="single.php">
             <div class="tile-content">
                 <img class="cocktail-thumb-img" src="assets/img/cocktails/8-cropped-thumb.jpg" alt="Cocktail img">
+                <p class="thumb-caption">Yummy drink</p>
+            </div>
+        </a>
+    </section>
+    <section class="drink-layout">
+        <h5>Category</h5>
+        <img data-expand-more class='icon expand' src='./assets/gfx/icon/toggle/expand_more.svg' type='image/svg+xml'>
+        <img data-expand-less class='icon expand hidden' src='./assets/gfx/icon/toggle/expand_less.svg' type='image/svg+xml'>
+
+        <a class="tile" href="single.php">
+            <div class="tile-content">
+                <img class="cocktail-thumb-img" src="assets/img/cocktails/1-cropped-thumb.jpg" alt="Cocktail img">
+                <p class="thumb-caption">Yummy drink</p>
+            </div>
+        </a>
+
+        <a class="tile" href="single.php">
+            <div class="tile-content">
+                <img class="cocktail-thumb-img" src="assets/img/cocktails/6-cropped-thumb.jpg" alt="Cocktail img">
+                <p class="thumb-caption">Yummy drink</p>
+            </div>
+        </a>
+
+        <a class="tile" href="single.php">
+            <div class="tile-content">
+                <img class="cocktail-thumb-img" src="assets/img/cocktails/15-cropped-thumb.jpg" alt="Cocktail img">
+                <p class="thumb-caption">Yummy drink</p>
+            </div>
+        </a>
+
+        <a class="tile" href="single.php">
+            <div class="tile-content">
+                <img class="cocktail-thumb-img" src="assets/img/cocktails/16-cropped-thumb.jpg" alt="Cocktail img">
                 <p class="thumb-caption">Yummy drink</p>
             </div>
         </a>
