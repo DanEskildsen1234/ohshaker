@@ -20,6 +20,12 @@ include_once('components/nav.php');
         <input value="KEA Bar" placeholder="Bar name" class="" maxlength="1">
         <p>Bartenders from your bar can use a pin code to get access to your bar's cocktails.</p>
         <a class="btn" href="settings-pin.php" data-logout>Set pin</a>
+        <div>
+            <input value="Example Road 12" placeholder="Address" class="" maxlength="1">
+            <input value="2400" placeholder="Zip" class="" maxlength="1">
+            <input value="Copenhagen NV" disabled class="" maxlength="1">
+            <input value="Denmark" class="" maxlength="1">
+        </div>
         <h2>You</h2>
         <div>
             <input value="John" placeholder="First name" class="" maxlength="1">
@@ -27,12 +33,6 @@ include_once('components/nav.php');
         </div>
         <div>
             <input value="email@example.com" placeholder="Email" class="" maxlength="1">
-        </div>
-        <div>
-            <input value="Example Road 12" placeholder="Address" class="" maxlength="1">
-            <input value="2400" placeholder="Zip" class="" maxlength="1">
-            <input value="Copenhagen NV" disabled class="" maxlength="1">
-            <input value="Denmark" class="" maxlength="1">
         </div>
 
     </section>

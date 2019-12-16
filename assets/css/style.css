@@ -105,6 +105,10 @@ a, a:hover {
   color: #ffffff;
 }
 
+a.btn {
+  color: #000000!important;
+}
+
 .btn {
   background: #ffffff;
   color: #000000;
