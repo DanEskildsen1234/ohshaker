@@ -285,6 +285,10 @@ form.settings.pin {
   margin-bottom: 70px;
 }
 
+.drink-layout .cocktail-thumb-img {
+  width: 100%;
+}
+
 @media only screen and (min-width:600px){
   .drink-layout {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -322,7 +326,7 @@ h5 {
 }
 
 .cocktail-thumb-img {
-  width:100%;
+  max-width: 100%;
   border-radius: 15px;
 }
 
