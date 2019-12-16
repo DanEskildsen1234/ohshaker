@@ -58,8 +58,9 @@ header div.search input {
   align-self: end;
 }
 
-.icon.nav.settings {
-
+.icon.expand {
+  width: 35px;
+  margin-left: auto;
 }
 
 nav {
@@ -256,9 +257,20 @@ a, a:hover {
 
 .drink-layout {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   margin-bottom: 70px;
+}
+
+section.drink-layout {
+  margin-bottom: 2.5em;
+}
+
+.drink-layout h5 {
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  align-self: center;
 }
 
 .tile {
