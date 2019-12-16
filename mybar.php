@@ -15,7 +15,7 @@
 
     session_start();
     if(empty($_SESSION)){header('Location: login.php');}  
-    if($_SESSION['manager']){
+    if(isset($_SESSION['manager'])){
         // add drink field
     }
 ?>

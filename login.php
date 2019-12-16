@@ -9,9 +9,25 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <?php
-        include_once('components/header.php');
-        include_once('components/nav.php');
+<?php
+    include_once('components/header.php');
+    include_once('components/nav.php');
+
+    session_start();
+    
+    if($_SESSION){ header ('location: mybar.php');}
+        // validate login credentials
+
+        (function(){   
+            if(empty($_POST['pin1']) || empty($_POST['pin2']) || empty($_POST['pin3']) || empty($_POST['pin4'])){
+                return;
+            } 
+
+            if ($_POST['pin1'] == '1' && $_POST['pin2'] == '2' && $_POST['pin3'] == '3' && $_POST['pin4'] == '4') {
+                $_SESSION['bartender'] =  'bt1';
+                header('Location: mybar.php');
+            }
+        })(); 
     ?>
 
     <div class="back-image"></div>
@@ -27,18 +43,18 @@
             </select>
         </div>
 
-        <section class="form">
+        <form class="form" method="POST">
             <p>Enter pin:</p>
             <div id="pin-field">
-                <input type="password" class="input-large pinput" maxlength="1">
-                <input type="password" class="input-large pinput" maxlength="1">
-                <input type="password" class="input-large pinput" maxlength="1">
-                <input type="password" class="input-large pinput" maxlength="1">
+                <input type="password" class="input-large pinput" maxlength="1" name="pin1">
+                <input type="password" class="input-large pinput" maxlength="1" name="pin2">
+                <input type="password" class="input-large pinput" maxlength="1" name="pin3">
+                <input type="password" class="input-large pinput" maxlength="1" name="pin4">
             </div>
             <button class="btn btn-blue" data-login>Login</button>
             <a href="manager-login.php">Administrative login</a>
             <!-- <button class="btn" data-register>Register</button> -->
-        </section>
+        </form>
     </main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

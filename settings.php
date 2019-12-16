@@ -18,11 +18,12 @@
         if(isset($_POST['logout'])) { 
             header('Location: logout.php');
         }
-/*         if($_SESSION['user']) {
-            // user display
-        } */
 
-        if($_SESSION['manager']) {
+        if(isset($_SESSION['user'])) {
+            // user display
+        }
+
+        if(isset($_SESSION['manager'])) {
             echo '
         
     <main>
