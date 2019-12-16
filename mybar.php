@@ -17,7 +17,7 @@ include_once('components/nav.php');
 <main>
     <section>
         <?php
-        include_once('components/ordered.php');
+            include('components/ordered.php');
         ?>
     </section>
 </main>
