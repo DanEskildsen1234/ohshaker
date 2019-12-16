@@ -56,8 +56,6 @@
                 <li>Squeeze and garnish dash of lime over cocktail</li>
             </ol>
         </div>
-
-        <div id="navSpacer"></div>
     </article>
 </main>
 

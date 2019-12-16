@@ -28,15 +28,15 @@ include_once('components/nav.php');
         </div>
         <h2>You</h2>
         <div>
-            <input value="John" placeholder="First name" class="" maxlength="1">
-            <input value="Doe" placeholder="Last name" class="" maxlength="1">
+            <input value="John" placeholder="First name" class="inputEdit">
+            <input value="Doe" placeholder="Last name" class="inputEdit">
         </div>
         <div>
-            <input value="email@example.com" placeholder="Email" class="" maxlength="1">
+            <input value="email@example.com" placeholder="Email" class="inputEdit">
         </div>
 
     </section>
-    <button class="btn" data-logout>Logout</button>
+    <button class="btn btn-blue" data-logout>Logout</button>
 </main>
 </body>
 </html>

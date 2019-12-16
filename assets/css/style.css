@@ -20,6 +20,7 @@ body {
 
 main {
   margin-top: 50px;
+  margin-bottom:70px;
   padding: 20px;
 }
 
@@ -125,6 +126,10 @@ a.btn {
   margin-bottom: 2em;
 }
 
+#bartenderSignupBtn {
+  color:black!important;
+}
+
 .form a {
   display: block;
   color: #2DA0F3;
@@ -178,6 +183,10 @@ a.btn {
 
 .hidden {
   display: none;
+}
+
+.disabled {
+  background:#8c8c8c!important;
 }
 
 #pin-field {
@@ -349,10 +358,6 @@ section.drink-layout {
   font-size:16px;
   font-weight: 500;
   margin:.2em;
-}
-
-#navSpacer {
-  height:70px;
 }
 
 #editButton {
