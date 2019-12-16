@@ -14,21 +14,19 @@
     include_once('components/nav.php');
     ?>
 
-    <div class="back-image"></div>
-
     <main>
         <p>Bar register:</p>
         <section class="form">
             <!-- <span data-error class="error-box hidden"></span> -->
             <form action="">
-                <input placeholder="Business name" class="input-small input-text" type="text">
-                <input placeholder="Administrator email" class="input-small input-text" type="text">
-                <input placeholder="Address" class="input-small input-text" type="text">
-                <input placeholder="Zip code" class="input-small input-text" type="text">
-                <input placeholder="County" class="input-small input-text" type="text">
+                <input placeholder="Business name" class="input-small inputEdit input-text" type="text">
+                <input placeholder="Administrator email" class="input-small inputEdit input-text" type="email">
+                <input placeholder="Address" class="input-small inputEdit input-text" type="text">
+                <input placeholder="Zip code" class="input-small inputEdit input-text" type="text">
+                <input placeholder="County" class="input-small inputEdit input-text" type="text">
             </form>
             
-            <button class="btn btn-blue" id="signup-submit" data-login>Submit</button>
+            <a href="settings-pin.php?signup=true" class="btn btn-blue" id="signup-submit" data-login>Submit</a>
         </section>
     </main>
 </body>

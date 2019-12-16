@@ -16,7 +16,19 @@ include_once('components/nav.php');
 
 <main>
     <section class="form settings">
-        <h2>Your information</h2>
+        <p>Bartenders from your bar can use a pin code to get access to your bar's cocktails.</p>
+        <a class="btn" href="settings-pin.php" data-logout>Set pin</a>
+        <h5>Your bar</h5>
+        <div>
+            <input value="KEA Bar" placeholder="Bar name" class="inputEdit" maxlength="1">
+        </div>
+        <div>
+            <input value="Example Road 12" placeholder="Address" class="inputEdit">
+            <input value="2400" placeholder="Zip" class="inputEdit">
+            <input value="Copenhagen NV" disabled class="inputEdit">
+            <input value="Denmark" class="inputEdit">
+        </div>
+        <h5>You</h5>
         <div>
             <input value="John" placeholder="First name" class="inputEdit">
             <input value="Doe" placeholder="Last name" class="inputEdit">
@@ -24,15 +36,10 @@ include_once('components/nav.php');
         <div>
             <input value="email@example.com" placeholder="Email" class="inputEdit">
         </div>
-        <div>
-            <input value="Example Road 12" placeholder="Address" class="inputEdit">
-            <input value="2400" placeholder="Zip" class="inputEdit">
-            <input value="Copenhagen NV" disabled class="inputEdit disabled">
-            <input value="Denmark" class="inputEdit">
-        </div>
-
+        <a class="btn btn-blue" href="index.php">Save</a>
     </section>
-    <button class="btn btn-blue" data-logout>Logout</button>
+
+    <button class="btn btn" data-logout>Logout</button>
 </main>
 </body>
 </html>

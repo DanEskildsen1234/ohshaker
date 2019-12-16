@@ -32,5 +32,5 @@
     </a>
 </template>
 
-<script src="assets/js/header.js"></script>
+<script src="./assets/js/header.js"></script>
 
