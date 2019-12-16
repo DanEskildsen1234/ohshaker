@@ -19,7 +19,7 @@ include_once('components/nav.php');
         <h2>Your bar</h2>
         <input value="KEA Bar" placeholder="Bar name" class="" maxlength="1">
         <p>Bartenders from your bar can use a pin code to get access to your bar's cocktails.</p>
-        <button class="btn" data-logout>Set pin</button>
+        <a class="btn" href="settings-pin.php" data-logout>Set pin</a>
         <h2>You</h2>
         <div>
             <input value="John" placeholder="First name" class="" maxlength="1">
