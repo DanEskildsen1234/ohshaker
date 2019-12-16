@@ -119,4 +119,4 @@
         </a>
     </section>
 </div>
-<script src="assets/js/ordered.js"></script>
+<!--<script src="assets/js/ordered.js"></script>-->
