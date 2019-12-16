@@ -12,7 +12,24 @@
     <?php
     include_once('components/header.php');
     include_once('components/nav.php');
+
+    session_start();
+    
+    if($_SESSION){ header ('location: mybar.php');}
+        // validate login credentials
+
+        (function(){   
+            if(empty($_POST['nameField'])){
+                return;
+            } 
+
+            if ($_POST['nameField'] == 'm1') {
+                $_SESSION['manager'] =  'm1';
+                header('Location: mybar.php');
+            }
+        })(); 
     ?>
+    
 
     <div class="back-image"></div>
 
@@ -26,15 +43,15 @@
             </select>
         </div>
 
-        <section class="form">
+        <form class="form" method="POST">
             <span style="height: 51px; display: block;"></span>
             <!-- <span data-error class="error-box hidden"></span> -->
-            <input placeholder="Username or email" class="input-large input-text" type="text">
+            <input name="nameField" placeholder="Username or email" class="input-large input-text" type="text">
             
-            <button class="btn btn-blue" data-login>Login</button>
+            <button class="btn btn-blue" data-login >Login</button>
             <a class="btn" id="bartenderRegisterBtn" href="signup.php">Register your bar</a>
             <a href="login.php">Bartender login</a>
-        </section>
+        </form>
     </main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

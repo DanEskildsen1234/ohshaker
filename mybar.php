@@ -10,8 +10,14 @@
 </head>
 <body>
 <?php
-include_once('components/header.php');
-include_once('components/nav.php');
+    include_once('components/header.php');
+    include_once('components/nav.php');
+
+    session_start();
+    if(empty($_SESSION)){header('Location: login.php');}  
+    if($_SESSION['manager']){
+        // add drink field
+    }
 ?>
 
 <main>
