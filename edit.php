@@ -63,7 +63,6 @@
                 </div>
         </article>
     </main>
-    <div id="navSpacer"></div>
     <script src="assets/js/cocktail.js"></script>
 </body>
 </html>
