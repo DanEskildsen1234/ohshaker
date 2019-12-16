@@ -146,6 +146,14 @@ a.btn {
   outline: none;
 }
 
+.form.settings {
+  margin-bottom: 3em;
+}
+
+form.settings.pin {
+  margin-top: 3em;
+}
+
 .form.settings div {
   margin-bottom: 1.5em;
 }
@@ -279,7 +287,7 @@ section.drink-layout {
   margin-bottom: 2.5em;
 }
 
-.drink-layout h5 {
+h5 {
   font-size: 1em;
   padding: 0;
   margin: 0;
@@ -383,7 +391,6 @@ section.drink-layout {
   display:flex;
   width:100%;
   background:#C4C4C4;
-  height:40px;
   border-radius:.2em;
   margin:.5em auto;
   outline: none;

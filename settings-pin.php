@@ -12,12 +12,19 @@
 <?php
 include_once('components/header.php');
 include_once('components/nav.php');
+
+if (isset($_GET['signup'])) {
+    $confirmLink = 'mybar.php';
+} else {
+    $confirmLink = 'settings.php';
+}
 ?>
 
 <main>
 
     <section class="form">
-        <form method="POST">
+        <p>Bartenders from your bar can use a pin code to get access to your bar's cocktails.</p>
+        <form class="settings pin" method="POST">
             <?php
                 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
                     echo "<p>Enter pin:</p>";
@@ -35,7 +42,7 @@ include_once('components/nav.php');
             if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
                 echo "<button class='btn btn-blue'>Next</button>";
             } else {
-                echo "<a href='settings.php' class='btn btn-blue'>Confirm</a>";
+                echo "<a href=".$confirmLink." class='btn btn-blue'>Confirm</a>";
             }
             ?>
         </form>
