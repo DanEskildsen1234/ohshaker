@@ -52,7 +52,7 @@
                 <input type="password" class="input-large pinput" maxlength="1" name="pin4">
             </div>
             <button class="btn btn-blue" data-login>Login</button>
-            <a href="manager-login.php">Administrative login</a>
+            <a href="login-manager.php">Administrative login</a>
             <!-- <button class="btn" data-register>Register</button> -->
         </form>
     </main>

@@ -14,16 +14,19 @@
     include_once('components/nav.php');
 
     session_start();
-    if(empty($_SESSION)){header('Location: login.php');}  
-    if(isset($_SESSION['manager'])){
-        // add drink field
-    }
+    if(empty($_SESSION)){header('Location: login.php');}
+    $Bar = 'Kea Bar';  
 ?>
 
 <main>
     <section>
         <?php
-        include_once('components/ordered.php');
+            if(isset($_SESSION['manager'])){
+               /*  echo '<h4>'.$Bar.'</h4>'; */
+                // add drink field
+            }
+
+            include_once('components/ordered.php');
         ?>
     </section>
 </main>
