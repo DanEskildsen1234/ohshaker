@@ -2,7 +2,7 @@
     <a class="tab" href="mybar.php">
         <div>
             <!-- object allows for fallback image -->
-            <object class="nav-icon" data="assets\gfx\icon\toggle\star.svg" type="image/svg+xml">
+            <object class="nav-icon" data="assets/gfx/icon/toggle/star.svg" type="image/svg+xml">
                 <!-- <img src="assets\gfx\icon\toggle\star.png" /> -->
             </object>
         </div>
@@ -15,7 +15,7 @@
     <a class="tab" href="index.php">
         <div>
             <!-- object allows for fallback image -->
-            <object class="nav-icon" data="assets\gfx\icon\toggle\local.svg" type="image/svg+xml">
+            <object class="nav-icon" data="assets/gfx/icon/toggle/local.svg" type="image/svg+xml">
                 <!-- <img src="assets\gfx\icon\toggle\star.png" /> -->
             </object>
         </div>
