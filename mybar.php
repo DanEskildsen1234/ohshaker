@@ -10,13 +10,22 @@
 </head>
 <body>
 <?php
-include_once('components/header.php');
-include_once('components/nav.php');
+    session_start();
+    if(empty($_SESSION)){
+        header('Location: login.php');
+    }
+    include_once('components/header.php');
+    include_once('components/nav.php');
+    $Bar = 'Kea Bar';  
 ?>
 
 <main>
     <section>
         <?php
+            if(isset($_SESSION['manager'])){
+                // add drink field
+            }
+
             include('components/ordered.php');
         ?>
     </section>

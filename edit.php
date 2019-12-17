@@ -13,6 +13,13 @@
 </head>
 <body>
     <?php
+        session_start();
+
+        if (!isset($_SESSION['manager'])) {
+            header('Location: single.php');
+        }  
+
+
         include_once('components/header.php');
         include_once('components/nav.php');
     ?>  

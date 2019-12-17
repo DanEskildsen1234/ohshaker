@@ -13,6 +13,8 @@
 </head>
 <body>
     <?php
+    session_start();
+
     include_once('components/header.php');
     include_once('components/nav.php');
     ?>
@@ -20,11 +22,11 @@
 <main>
     <article>
         <?php
-            if(isset($_SESSION['manager'])){
+            if (isset($_SESSION['manager'])) {
                 echo '
-                <a href="edit.php">
-                    <img id="editButton" src="assets/img/cocktail-icons/edit.svg" alt="link to edit page">
-                </a>';
+                    <a href="edit.php">
+                        <img id="editButton" src="assets/img/cocktail-icons/edit.svg" alt="link to edit page">
+                    </a>';
             }
         ?>
         <img class="cocktail-thumb-img singleImg" src="assets/img/cocktails/1-cropped-thumb.jpg" alt="Cocktail img">

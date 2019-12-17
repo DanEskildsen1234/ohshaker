@@ -9,14 +9,26 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-<?php
-include_once('components/header.php');
-include_once('components/nav.php');
-?>
+    <?php
+        session_start();
 
-<main>
+        if(isset($_POST['logout'])) { 
+            header('Location: logout.php');
+        }
+
+        include_once('components/header.php');
+        include_once('components/nav.php');
+
+        if(isset($_SESSION['user'])) {
+            // user display
+        }
+
+        if(isset($_SESSION['manager'])) {
+            echo '
+        
+    <main>
     <section class="form settings">
-        <p>Bartenders from your bar can use a pin code to get access to your bar's cocktails.</p>
+        <p>Bartenders from your bar can use a pin code to get access to your bar\'s cocktails.</p>
         <a class="btn" href="settings-pin.php" data-logout>Set pin</a>
         <h5>Your bar</h5>
         <div>
@@ -39,7 +51,11 @@ include_once('components/nav.php');
         <a class="btn btn-blue" href="index.php">Save</a>
     </section>
 
-    <button class="btn btn" data-logout>Logout</button>
-</main>
+        <form method="post"> 
+            <input type="submit" name="logout" class="btn" value="Logout"/> 
+        </form> 
+    </main>';
+    }
+    ?>
 </body>
 </html>
