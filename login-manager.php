@@ -10,24 +10,20 @@
 </head>
 <body>
     <?php
-    include_once('components/header.php');
-    include_once('components/nav.php');
-
     session_start();
     
-    if($_SESSION){ header ('location: mybar.php');}
-        // validate login credentials
+    if(!empty($_SESSION)) {
+        header ('location: mybar.php');
+    }
+    // validate login credentials
 
-        (function(){   
-            if(empty($_POST['nameField'])){
-                return;
-            } 
+    if (isset($_POST['nameField'])) {
+        $_SESSION['manager'] =  'm1';
+        header('Location: mybar.php');
+    }
 
-            if ($_POST['nameField'] == 'm1') {
-                $_SESSION['manager'] =  'm1';
-                header('Location: mybar.php');
-            }
-        })(); 
+    include_once('components/header.php');
+    include_once('components/nav.php');
     ?>
     
 

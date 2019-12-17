@@ -10,24 +10,22 @@
 </head>
 <body>
 <?php
+    session_start();
+    
+    if(!empty($_SESSION)) { 
+        header ('location: mybar.php');
+    }
+
+    // validate login credentials
+
+    if(!empty($_POST['pin1']) && !empty($_POST['pin2']) && !empty($_POST['pin3']) && !empty($_POST['pin4'])){
+        $_SESSION['bartender'] =  'bt1';
+        header('Location: mybar.php');
+    } 
+
     include_once('components/header.php');
     include_once('components/nav.php');
 
-    session_start();
-    
-    if($_SESSION){ header ('location: mybar.php');}
-        // validate login credentials
-
-        (function(){   
-            if(empty($_POST['pin1']) || empty($_POST['pin2']) || empty($_POST['pin3']) || empty($_POST['pin4'])){
-                return;
-            } 
-
-            if ($_POST['pin1'] == '1' && $_POST['pin2'] == '2' && $_POST['pin3'] == '3' && $_POST['pin4'] == '4') {
-                $_SESSION['bartender'] =  'bt1';
-                header('Location: mybar.php');
-            }
-        })(); 
     ?>
 
     <div class="back-image"></div>

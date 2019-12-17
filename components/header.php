@@ -1,8 +1,9 @@
 <header>
     <div class="logo-and-back">
         <?php
-        if ($_SERVER['REQUEST_URI'] === './login.php' || $_SERVER['REQUEST_URI'] === '/'
-            || $_SERVER['REQUEST_URI'] === '' || $_SERVER['REQUEST_URI'] === './index.php') {
+        if ($_SERVER['REQUEST_URI'] === '/login.php' || $_SERVER['REQUEST_URI'] === '/'
+            || $_SERVER['REQUEST_URI'] === '' || $_SERVER['REQUEST_URI'] === '/index.php'
+            || $_SERVER['REQUEST_URI'] === '/mybar.php' || $_SERVER['REQUEST_URI'] === '/login-manager.php') {
             echo"
                 <img data-logo class='nav icon logo' src='./assets/gfx/icon/toggle/logo.svg' type='image/svg+xml'>
                 <img data-back class='nav icon back hidden' src='./assets/gfx/icon/toggle/arrow_back.svg' type='image/svg+xml'>
@@ -23,8 +24,10 @@
     </div>
 </header>
 
-<section data-search-results class="hidden">
-
+<section data-search-results class="hidden search-results">
+    <?php
+        include('ordered.php');
+    ?>
 </section>
 <template data-search-item>
     <a>
@@ -32,5 +35,5 @@
     </a>
 </template>
 
-<script src="assets/js/header.js"></script>
+<script src="./assets/js/header.js"></script>
 
