@@ -46,11 +46,21 @@ header div.search {
   display: flex;
 }
 
+header div.logo-and-back {
+  display: flex;
+}
+
 header div.search input {
   width: 100%;
   line-height: normal;
 }
 
+header h2.page-title {
+  display: inline;
+  margin-top: 1.1em;
+  margin-left: 0.5em;
+  vertical-align: middle;
+}
 
 .icon.nav {
   cursor: pointer;
@@ -192,7 +202,7 @@ form.settings.pin {
 }
 
 .hidden {
-  display: none;
+  display: none!important;
 }
 
 .disabled {

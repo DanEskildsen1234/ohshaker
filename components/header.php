@@ -5,11 +5,14 @@
             || $_SERVER['REQUEST_URI'] === '' || $_SERVER['REQUEST_URI'] === '/index.php'
             || $_SERVER['REQUEST_URI'] === '/mybar.php' || $_SERVER['REQUEST_URI'] === '/login-manager.php') {
             echo"
-                <img data-logo class='nav icon logo' src='./assets/gfx/icon/toggle/logo.svg' type='image/svg+xml'>
-                <img data-back class='nav icon back hidden' src='./assets/gfx/icon/toggle/arrow_back.svg' type='image/svg+xml'>
-                ";
+            <img data-logo class='nav icon logo' src='./assets/gfx/icon/toggle/logo.svg' type='image/svg+xml'>
+            <img data-back class='nav icon back hidden' src='./assets/gfx/icon/toggle/arrow_back.svg' type='image/svg+xml'>
+            ";
         } else {
-            echo"<img data-back class='nav icon back' src='./assets/gfx/icon/toggle/arrow_back.svg' type='image/svg+xml'>";
+            echo'
+            <img data-back class="nav icon back" src="./assets/gfx/icon/toggle/arrow_back.svg" type="image/svg+xml">
+            <h2 class="page-title" data-title>'.$pageTitle.'</h2>
+            ';
         }
         ?>
     </div>

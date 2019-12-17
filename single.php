@@ -1,3 +1,7 @@
+<?php
+    $pageTitle = 'Yummy cocktail';
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,7 +11,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <title>OhShaker</title>
+    <title>OhShaker - <?=$pageTitle?></title>
+    <style>
+        body {
+            background-color: #000000;
+            transition: opacity 50ms;
+            opacity: 0;
+        }
+    </style>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
