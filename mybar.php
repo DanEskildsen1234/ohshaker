@@ -7,6 +7,7 @@
     <title>Classic cocktails</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
 </head>
 <body>
 <?php
@@ -20,15 +21,32 @@
 ?>
 
 <main>
-    <section>
-        <?php
+    <section class="drink-layout add-drink-field">
+        <?php 
             if(isset($_SESSION['manager'])){
-                // add drink field
+                echo '
+                <a class="tile" href="create.php">
+                    <div class="tile-content">
+                        <img class="cocktail-thumb-img" src="assets/img/cocktails/add.svg" alt="Cocktail img" type="image/svg+xml" id="add-img">
+                    </div>
+                </a>
+                ';
             }
-
-            include('components/ordered.php');
         ?>
+
+        <a class="tile" href="single.php">
+            <div class="tile-content" id="new-img-div">
+                <label for="new-img-div" id="new-drink-label">NEW</label>
+                <img class="cocktail-thumb-img" src="assets/img/cocktails/12-cropped-thumb.jpg" alt="Cocktail img">
+                <p class="thumb-caption">Yummy drink</p>
+            </div>
+        </a>
     </section>
+
+    <?php
+        include('components/ordered.php');
+    ?>
+
 </main>
 </body>
 </html>
