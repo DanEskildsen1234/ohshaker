@@ -44,7 +44,7 @@
             <!-- <span data-error class="error-box hidden"></span> -->
             <input name="nameField" placeholder="Username or email" class="input-large input-text" type="text">
             
-            <button class="btn btn-blue" data-login >Login</button>
+            <button class="btn btn-blue" data-login >Log in</button>
             <a class="btn" id="bartenderRegisterBtn" href="signup.php">Register your bar</a>
             <a href="login.php">Bartender login</a>
         </form>
