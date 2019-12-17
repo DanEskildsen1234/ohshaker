@@ -4,6 +4,7 @@ function headerNav() {
     const backButton = document.querySelector('[data-back]');
     const searchResults = document.querySelector('[data-search-results]');
     const logo = document.querySelector('[data-logo]');
+    const title = document.querySelector('[data-title]');
 
     openSearchButton.addEventListener('click', ()=> {
         toggleView();
@@ -41,6 +42,9 @@ function headerNav() {
             backButton.classList.toggle('hidden');
             logo.classList.toggle('hidden');
         }
+        if (title) {
+            title.classList.toggle('hidden');
+        }
         document.querySelector('main').classList.toggle('hidden');
         searchResults.classList.toggle('hidden');
         openSearchButton.classList.toggle('hidden');
@@ -71,4 +75,5 @@ function accordions() {
 window.addEventListener('DOMContentLoaded', (event) => {
     headerNav();
     accordions();
+    document.querySelector('body').style.opacity = 1;
 });
