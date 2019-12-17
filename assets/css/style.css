@@ -99,6 +99,7 @@ a.btn {
   text-decoration: none;
   width: 100%;
   border: none;
+  cursor: pointer;
   box-sizing: border-box;
   padding: 15px;
   font-size: 1em;
@@ -438,6 +439,7 @@ h5 {
   display:flex;
   margin:0 auto 2em auto;
   border: dashed 4px;
+  cursor: pointer;
   border-radius:0;
 }
 
