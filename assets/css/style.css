@@ -75,37 +75,6 @@ header h2.page-title {
   margin-left: auto;
 }
 
-nav {
-  display: grid;
-  grid-template-columns: 1fr 1px 1px 1fr;
-  align-items: center;
-  position: fixed;
-  bottom: 0;
-  padding-bottom: 15px;
-  height: 70px;
-  background-color: #2D2D2D;
-  width: 100%;
-  border-top: 1px solid #595959;
-  z-index: 1;
-}
-
-nav a {
-  display: grid;
-  justify-items: center;
-  text-decoration: none;
-  color: #BEBEBE;
-}
-
-#line1 {
-  background-color: #131313;
-  height: 45px;
-}
-
-#line2 {
-  background-color: #595959;
-  height: 45px;
-}
-
 input {
   border: none;
   font-size: 1em;
@@ -136,6 +105,41 @@ a.btn {
   border-radius: 8px;
   display: block;
   margin-bottom: 2em;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 15px;
+  height: 70px;
+  background-color: #2D2D2D;
+  width: 100%;
+  border-top: 1px solid #595959;
+  z-index: 1;
+}
+
+nav a {
+  display: grid;
+  justify-items: center;
+  text-decoration: none;
+  color: #BEBEBE;
+}
+
+nav a:hover {
+  color: inherit;
+}
+
+nav a svg {
+  margin-bottom: 5px;
+}
+
+nav .line {
+  background-color: #6F6F6F;
+  height: 45px;
+  width: 1px;
 }
 
 #bartenderSignupBtn {
