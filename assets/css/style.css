@@ -388,7 +388,9 @@ h5 {
 
 #methodContainer ol {
   position:relative;
-  padding-inline-start: 1.1em;}
+  padding-inline-start: 1.1em;
+  margin-bottom: 4em;
+}
 
 #methodContainer li {
   font-size:16px;
