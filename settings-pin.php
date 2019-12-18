@@ -18,6 +18,7 @@
     </style>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
 </head>
 <body>
 <?php
@@ -35,7 +36,7 @@ if (isset($_GET['signup'])) {
 
     <section class="form">
         <p>Bartenders from your bar can use a pin code to get access to your bar's cocktails.</p>
-        <form class="settings pin" method="POST">
+        <form class="form login" method="POST">
             <?php
                 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
                     echo "<p>Enter pin:</p>";
