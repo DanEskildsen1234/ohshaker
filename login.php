@@ -53,7 +53,7 @@
         </div>
 
         <form class="form login" method="POST">
-            <p>Enter pin:</p>
+            <h5>Enter pin:</h5>
             <div id="pin-field">
                 <input type="password" class="pinput" maxlength="1" name="pin1">
                 <input type="password" class="pinput" maxlength="1" name="pin2">

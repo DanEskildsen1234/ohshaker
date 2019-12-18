@@ -52,7 +52,7 @@
         </div>
 
         <form class="form manager-login" method="POST">
-            <span style="height: 58.5px; display: block;"></span>
+            <span style="height: 34.5px; display: block;"></span>
             <!-- <span data-error class="error-box hidden"></span> -->
             <div>
                 <input name="nameField" placeholder="Username or email" class="inputEdit" type="text">

@@ -39,9 +39,9 @@ if (isset($_GET['signup'])) {
         <form class="form login" method="POST">
             <?php
                 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-                    echo "<p>Enter pin:</p>";
+                    echo "<h5>Enter pin:</h5>";
                 } else {
-                    echo "<p>Confirm pin:</p>";
+                    echo "<h5>Confirm pin:</h5>";
                 }
             ?>
             <div id="pin-field">

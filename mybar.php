@@ -48,7 +48,7 @@
         <a class="tile" href="single.php">
             <div class="tile-content" id="new-img-div">
                 <label for="new-img-div" id="new-drink-label">NEW</label>
-                <img class="cocktail-thumb-img" src="assets/img/cocktails/12-cropped-thumb.jpg" alt="Cocktail img">
+                <img class="cocktail-thumb-img" src="assets/img/cocktails/6-cropped-thumb.jpg" alt="Cocktail img">
                 <p class="thumb-caption">Yummy drink</p>
             </div>
         </a>

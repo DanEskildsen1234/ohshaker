@@ -33,23 +33,25 @@
     
     <main>
         <article>
-            <div id="cocktailEdit">
+            <form class="form cocktailEdit">
                 <input type="file" id="imgUpload" style="display:none" onchange="putImage()"/> 
                 <img id="target"> 
                 <img class="cocktail-thumb-img" id="chooseImg" src="assets/img/cocktail-icons/image.svg" alt="Cocktail img"> 
-                <div class="editSubtitle">Name</div>
-                <input class="inputEdit" placeholder="Cocktail name" value="">
+                <div>
+                    <h5>Name</h5>
+                    <input class="inputEdit" placeholder="Cocktail name" value="">
+                </div>
                 <div id="editIngredients">
-                    <div class="editSubtitle">Ingredients</div>
+                    <h5>Ingredients</h5>
                     <input class="inputEdit" placeholder="Ingredient name and amount" value="">
                     <div class="btn addField">+</div>
                 </div>
                 <div id="editMethod">
-                    <div class="editSubtitle">Method</div>
+                    <h5>Method</h5>
                     <input class="inputEdit" placeholder="Step" value="">
                     <div class="btn addField">+</div>
                 </div>
-                <div class="editSubtitle">Actions</div>
+                <h5>Actions</h5>
                 <select id="select-action" name="state[]" multiple class="demo-default" placeholder="Select an action">
                     <option value="">Select an action...</option>
                     <option value="Cubed">Cubed ice</option>
@@ -57,7 +59,7 @@
                     <option value="Shaken">Shaken</option>
                     <option value="Stirred">Stirred</option>
                 </select>
-                <div class="editSubtitle">Categories</div>
+                <h5>Categories</h5>
                 <select id="select-category" name="state[]" multiple class="demo-default" placeholder="Select a category">
                     <option value="">Select a category...</option>
                     <option value="Vodka">Vodka</option>
@@ -67,7 +69,7 @@
                     <option value="Other">Other</option>
                 </select>
                 <div class="btn btn-blue">Save</div>
-                </div>
+            </form>
         </article>
     </main>
     <div id="navSpacer"></div>

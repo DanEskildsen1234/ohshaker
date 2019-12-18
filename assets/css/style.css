@@ -103,9 +103,13 @@ a.btn {
   box-sizing: border-box;
   padding: 15px;
   font-size: 1em;
-  border-radius: 8px;
+  border-radius: 8px!important;
   display: block;
   margin-bottom: 2em;
+}
+
+.btn-logout {
+  line-height: 1.2em;
 }
 
 nav {
@@ -177,7 +181,7 @@ form.settings.pin {
   margin-top: 3em;
 }
 
-.form.settings div, .form.manager-login div, form.login div {
+.form.settings div, .form.manager-login div, form.login div, .form.cocktailEdit div {
   margin-bottom: 1.5em;
 }
 
@@ -219,6 +223,7 @@ form.settings.pin {
   grid-template-columns: auto auto auto auto;
   column-gap: 10px;
   justify-content: center;
+  margin-top: .5em;
 }
 
 .pinput {
@@ -233,6 +238,7 @@ form.settings.pin {
   position: relative;
   display: grid;
   justify-content: center;
+  margin-bottom: 1.5em;
 }
 
 .select-style-1 select {
@@ -463,17 +469,17 @@ h5 {
 
 }
 
-#cocktailEdit .btn {
+.cocktailEdit .addField{
   line-height: 10pt;
   height:40px;
   margin:0;
 }
 
-#cocktailEdit .btn.btn-blue {
+/* .cocktailEdit .btn.btn-blue {
   margin:1.1em auto;
   color: white;
   font-weight:400;
-}
+} */
 
 .editSubtitle {
   margin-top:2em;
@@ -484,11 +490,18 @@ h5 {
   font-size:16px!important;
   margin-top:.5em;
   padding:10px 8px!important;
-  /* margin-bottom:1.5em; */
 }
 
 .selectize-input input {
   font-size:1em!important;
+}
+
+.selectize-input, .selectize-dropdown-content, .option {
+  margin-bottom: 0!important;
+}
+
+.selectize-control{
+  margin-bottom: 20px!important;
 }
 
 .selectize-control.plugin-remove_button [data-value] .remove {

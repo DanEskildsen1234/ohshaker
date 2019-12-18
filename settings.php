@@ -64,7 +64,7 @@
                 <a class="btn btn-blue" href="index.php">Save</a>
             
                 <form method="post">
-                    <input type="submit" name="logout" class="btn" value="Log out"/>
+                    <input type="submit" name="logout" class="btn btn-logout" value="Log out"/>
                 </form>
             ';
             }
@@ -75,7 +75,7 @@
                         <input value="KEA Bar" disabled class="inputEdit">
                     </div>
                     <form method="post">
-                        <input type="submit" name="logout" class="btn" value="Log out"/>
+                        <input type="submit" name="logout" class="btn btn-logout" value="Log out"/>
                     </form>
                 ';
             }

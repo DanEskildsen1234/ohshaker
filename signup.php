@@ -38,7 +38,7 @@
     ?>
 
     <main>
-        <p>Bar register:</p>
+        <h5>Bar register:</h5>
         <section class="form">
             <!-- <span data-error class="error-box hidden"></span> -->
             <form class="form login" method="POST">
