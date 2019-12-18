@@ -42,7 +42,7 @@
             <div id="cocktailEdit">
                 <input type="file" id="imgUpload" style="display:none" onchange="putImage()"/> 
                 <img id="target"> 
-                <img class="cocktail-thumb-img" id="chooseImg" src="assets/img/cocktail-icons/image.svg" alt="Cocktail img"> 
+                <img class="cocktail-thumb-img" id="chooseImg" src="assets/img/cocktails/1-cropped-thumb.jpg" alt="Cocktail img"> 
                 <div class="editSubtitle">Name</div>
                 <input class="inputEdit" value="Vodka Cranberry">
                 <div id="editIngredients">
