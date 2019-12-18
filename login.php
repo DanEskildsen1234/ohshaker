@@ -18,6 +18,7 @@
     </style>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
 </head>
 <body>
 <?php
@@ -42,9 +43,8 @@
     <div class="back-image"></div>
 
     <main>
-        <!-- <span data-error class="error-box"></span> -->
         <div class="select-style-1">
-            <select name="bar-select-drop" id="bar-select-drop">
+            <select>
                 <option value="0">Kea Bar</option>
                 <option value="1">Kea Bar</option>
                 <option value="2">Another bar</option>
@@ -52,17 +52,16 @@
             </select>
         </div>
 
-        <form class="form" method="POST">
+        <form class="form login" method="POST">
             <p>Enter pin:</p>
             <div id="pin-field">
-                <input type="password" class="input-large pinput" maxlength="1" name="pin1">
-                <input type="password" class="input-large pinput" maxlength="1" name="pin2">
-                <input type="password" class="input-large pinput" maxlength="1" name="pin3">
-                <input type="password" class="input-large pinput" maxlength="1" name="pin4">
+                <input type="password" class="pinput" maxlength="1" name="pin1">
+                <input type="password" class="pinput" maxlength="1" name="pin2">
+                <input type="password" class="pinput" maxlength="1" name="pin3">
+                <input type="password" class="pinput" maxlength="1" name="pin4">
             </div>
             <button class="btn btn-blue" data-login>Log in</button>
             <a href="login-manager.php">Administrative login</a>
-            <!-- <button class="btn" data-register>Register</button> -->
         </form>
     </main>
 

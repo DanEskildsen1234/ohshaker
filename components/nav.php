@@ -18,6 +18,7 @@
         </span>
     </a>
     <div class="line"></div>
+    <div class="line2"></div>
     <a class="tab" href="index.php">
         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M26.25 3.75H3.75V6.25L13.75 17.5V23.75H7.5V26.25H22.5V23.75H16.25V17.5L26.25 6.25V3.75ZM18.4625 11.25L15 15.1375L11.5375 11.25H18.4625ZM7.075 6.25L9.2875 8.75H20.7125L22.9375 6.25H7.075Z"

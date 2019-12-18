@@ -18,6 +18,7 @@
     </style>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
 </head>
 <body>
     <?php
@@ -50,13 +51,14 @@
             </select>
         </div>
 
-        <form class="form" method="POST">
-            <span style="height: 51px; display: block;"></span>
+        <form class="form manager-login" method="POST">
+            <span style="height: 58.5px; display: block;"></span>
             <!-- <span data-error class="error-box hidden"></span> -->
-            <input name="nameField" placeholder="Username or email" class="input-large input-text" type="text">
-            
+            <div>
+                <input name="nameField" placeholder="Username or email" class="inputEdit" type="text">
+            </div>
             <button class="btn btn-blue" data-login >Log in</button>
-            <a class="btn" id="bartenderRegisterBtn" href="signup.php">Register your bar</a>
+            <a class="btn" id="bartenderRegisterBtn" href="signup.php">Register</a>
             <a href="login.php">Bartender login</a>
         </form>
     </main>

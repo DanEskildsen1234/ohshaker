@@ -46,7 +46,7 @@
         </a>
     </section>
     <section class="drink-layout">
-        <h5>Category</h5>
+        <h5>Whiskey</h5>
         <img data-expand-more class='icon expand' src='./assets/gfx/icon/toggle/expand_more.svg' type='image/svg+xml'>
         <img data-expand-less class='icon expand hidden' src='./assets/gfx/icon/toggle/expand_less.svg' type='image/svg+xml'>
 
